@@ -1,7 +1,7 @@
 # DataEncryptor
 
 DataEncryptor is a simple wrapper for OpenSSL::Cipher to encrypt and decrypt objects. It uses `JSON` to serialize objects
-which limits encryption for basic objects. This gem uses the stdlib only.
+which limits encryption for basic types like String, Integer, Array, Hash and so on. This gem uses the stdlib only.
 
 ## Installation
 
